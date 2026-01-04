@@ -1,0 +1,327 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <title>Carlos Apolo Porcayo Aleman | Portfolio Tech</title>
+
+    <!-- Bootstrap 5 CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <style>
+        :root {
+            --tech: #6c63ff;
+        }
+
+        body {
+            scroll-behavior: smooth;
+        }
+
+        section {
+            padding: 60px 0;
+        }
+
+        .hero {
+            min-height: 55vh;
+            display: flex;
+            align-items: center;
+        }
+
+        h1, h2 {
+            color: var(--tech);
+        }
+
+        .demo-video {
+            height: 200px;
+            object-fit: cover;
+            background: #000;
+        }
+
+        #contact {
+            background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);
+        }
+
+        .contact-box {
+            max-width: 520px;
+            margin: auto;
+            padding: 28px;
+            border-radius: 14px;
+            background: rgba(255,255,255,0.06);
+            border: 1px solid rgba(255,255,255,0.12);
+        }
+
+        .contact-box p,
+        .contact-box div {
+            font-size: 0.95rem;
+        }
+    </style>
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+    <div class="container">
+        <a class="navbar-brand fw-bold" href="#home">Carlos Apolo Porcayo Aleman</a>
+        <div>
+            <a class="nav-link d-inline text-light" href="#projects">Proyectos</a>
+            <a class="nav-link d-inline text-light" href="#contact">Contacto</a>
+        </div>
+    </div>
+</nav>
+
+<!-- HERO -->
+<section id="home" class="hero bg-light">
+    <div class="container text-center">
+        <h1 class="fw-bold mb-2">Desarrollador de Software</h1>
+
+        <p class="lead mb-2">
+            Carlos Apolo Porcayo Aleman ·
+        </p>
+
+        <div class="mt-2">
+            <span class="badge bg-primary">Python</span>
+            <span class="badge bg-secondary">Flask</span>
+            <span class="badge bg-success">Ciberseguridad</span>
+            <span class="badge bg-danger">OWASP</span>
+            <span class="badge bg-dark">Data Science</span>
+        </div>
+
+        <p class="mt-2 col-md-7 mx-auto">
+            Desarrollador Full-Stack con experiencia en aplicaciones web, ciberseguridad y análisis de datos, orientado a soluciones tecnológicas escalables y eficientes.
+        </p>
+    </div>
+</section>
+
+
+     <!-- EDUCACIÓN & EXPERIENCIA -->
+<section id="education-experience"
+         style="background: linear-gradient(135deg, #0f2027, #203a43, #2c5364);">
+    <div class="container">
+
+        <h2 class="text-center mb-5 text-light">
+            Educación & Experiencia
+        </h2>
+
+        <!-- EDUCACIÓN + EXPERIENCIA -->
+        <div class="row g-4">
+
+            <!-- EDUCACIÓN -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-lg border-0"
+                     style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); color:#fff;">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3" style="color: var(--tech);">
+                            🎓 Educación
+                        </h4>
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><strong>Maestría en Ciencias Cognitivas</strong><br>Investigación CONACYT</li>
+                            <li class="mb-2"><strong>Licenciatura en Psicología</strong><br>UAEM</li>
+                            <li class="mb-2"><strong>Ingeniería en Software (en curso)</strong><br>UVEG</li>
+                            <li class="mb-2"><strong>Técnico en Seguridad Informática</strong><br>Fundación Carlos Slim</li>
+                            <li><strong>Diplomados</strong><br>Python · Flask · Seguridad</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- EXPERIENCIA -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-lg border-0"
+                     style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); color:#fff;">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3" style="color: var(--tech);">
+                            💼 Experiencia
+                        </h4>
+                        <ul class="list-unstyled small">
+                            <li class="mb-3"><strong>Análisis de Datos</strong>
+                                    <ul class="custom-list">
+  <li>Análisis e interpretación de bases de datos clínicos y sociales usando Python (Pandas, NumPy).</li>
+  <li>Limpieza, visualización y reporte de datos relevantes para estudios en salud mental.</li>
+  <li>Aplicación de estadística descriptiva e inferencial para hipótesis de investigación.</li>
+</ul>
+
+
+                            <li class="mb-3"><strong>Desarrollador Web</strong>
+                                <br><ul class="custom-list">
+  <li>Desarrollo de aplicaciones web con Python, Flask, React, HTML, CSS y JavaScript.</li>
+  <li>Implementación de backends seguros con JWT y bases de datos en PostgreSQL y MongoDB.</li>
+  <li>Diseño responsive y despliegue de aplicaciones en Heroku y Vercel.</li>
+</ul>
+</li>
+                            <li><strong>Ciberseguridad</strong>
+                                <br><ul class="custom-list">
+  <li>Scraping web y automatización de recolección de información.</li>
+  <li>Análisis de malware y estudio de comportamiento de código malicioso.</li>
+  <li>Análisis de redes y seguridad en aplicaciones web.</li>
+  <li>Evaluación de vulnerabilidades bajo estándares OWASP.</li>
+  <li>Fundamentos de criptografía aplicada a la seguridad informática.</li>
+  <li>Hacking ético utilizando entornos como Kali Linux.</li>
+</ul>
+</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!-- HABILIDADES -->
+        <div class="row g-4 mt-4">
+
+            <!-- HABILIDADES TÉCNICAS -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-lg border-0"
+                     style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); color:#fff;">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3" style="color: var(--tech);">
+                            🛠️ Habilidades Técnicas
+                        </h4>
+
+                        <ul class="list-unstyled small">
+                            <li class="mb-2"><strong style="color: var(--tech);">Lenguajes:</strong><br>Python, JavaScript, HTML, CSS, PHP</li>
+                            <li class="mb-2"><strong style="color: var(--tech);">Frameworks:</strong><br>Flask, React.js, React Native, Bootstrap</li>
+                            <li class="mb-2"><strong style="color: var(--tech);">Ciberseguridad:</strong><br>Kali Linux, OWASP ZAP, Wireshark</li>
+                            <li class="mb-2"><strong style="color: var(--tech);">Bases de Datos:</strong><br>PostgreSQL, MongoDB, MySQL</li>
+                            <li><strong style="color: var(--tech);">Otras:</strong><br>Git, GitHub, Web Scraping, Estadística (Python, SPSS)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <!-- OTRAS APTITUDES -->
+            <div class="col-md-6">
+                <div class="card h-100 shadow-lg border-0"
+                     style="background: rgba(255,255,255,0.08); backdrop-filter: blur(6px); color:#fff;">
+                    <div class="card-body">
+                        <h4 class="card-title mb-3" style="color: var(--tech);">
+                            🧠 Otras Aptitudes
+                        </h4>
+
+                        <ul class="list-unstyled small">
+                            <li class="mb-2">✔️ Mejora continua</li>
+                            <li class="mb-2">✔️ Liderazgo</li>
+                            <li class="mb-2">✔️ Adaptabilidad</li>
+                            <li class="mb-2">✔️ Trabajo en equipo</li>
+                            <li class="mb-2">✔️ Creatividad</li>
+                            <li>✔️ Inglés (Intermedio–Avanzado)</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+</section>
+
+
+
+
+<!-- PROYECTOS (INTACTOS) -->
+<section id="projects" class="bg-light">
+    <div class="container">
+        <h2 class="text-center mb-5">Apps & Demos Reales</h2>
+
+        <div class="row g-4">
+
+            <!-- DEMO 1 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <video class="card-img-top demo-video" controls muted preload="metadata">
+                        <source src="{{ url_for('static', filename='video/app-curso.mp4') }}" type="video/mp4">
+                    </video>
+                    <div class="card-body text-center">
+                        <h5>Plataforma de Cursos</h5>
+                        <p class="small">Plataforma educativa desarrollada con Python y Flask, con interfaz responsiva en Bootstrap.
+Incluye un panel de administración para gestionar cursos, usuarios y contenido, así como un sistema de seguimiento de progreso para estudiantes. Al finalizar cada curso, la plataforma genera certificados automáticamente, optimizando la experiencia educativa y administrativa.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openCinema('{{ url_for('static', filename='video/app-curso.mp4') }}')"
+                            data-bs-toggle="modal" data-bs-target="#cinemaModal">
+                            🎬 Modo cine
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DEMO 2 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <video class="card-img-top demo-video" controls muted preload="metadata">
+                        <source src="{{ url_for('static', filename='video/dashboard.mp4') }}" type="video/mp4">
+                    </video>
+                    <div class="card-body text-center">
+                        <h5>Plataforma de Estimulación Cognitiva</h5>
+                        <p class="small">Plataforma desarrollada con Python y Flask, con interfaz responsiva en Bootstrap, que integra ejercicios interactivos de memoria, atención y flexibilidad cognitiva, orientados a la estimulación cognitiva y rehabilitación infantil. El sistema está diseñado para apoyar procesos terapéuticos y educativos mediante actividades estructuradas y medibles.</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openCinema('{{ url_for('static', filename='video/dashboard.mp4') }}')"
+                            data-bs-toggle="modal" data-bs-target="#cinemaModal">
+                            🎬 Modo cine
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+            <!-- DEMO 3 -->
+            <div class="col-lg-4 col-md-6">
+                <div class="card h-100 shadow-sm border-0">
+                    <video class="card-img-top demo-video" controls muted preload="metadata">
+                        <source src="{{ url_for('static', filename='video/security-demo.mp4') }}" type="video/mp4">
+                    </video>
+                    <div class="card-body text-center">
+                        <h5>Demo de Seguridad</h5>
+                        <p class="small">OWASP & Hardening</p>
+                        <button class="btn btn-sm btn-outline-primary"
+                            onclick="openCinema('{{ url_for('static', filename='video/security-demo.mp4') }}')"
+                            data-bs-toggle="modal" data-bs-target="#cinemaModal">
+                            🎬 Modo cine
+                        </button>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<!-- CONTACTO -->
+<section id="contact" class="text-light">
+    <div class="container text-center">
+        <h2 class="mb-4">Contacto</h2>
+        <div class="contact-box">
+            <p>Colaboraciones, proyectos tecnológicos u oportunidades profesionales</p>
+            <div>📧 developer.apoloalem@outlook.com</div>
+            <div>📱 777 240 8203</div>
+            <div>📍 México</div>
+        </div>
+    </div>
+</section>
+
+<!-- MODAL CINE (CORRECTO) -->
+<div class="modal fade" id="cinemaModal" tabindex="-1">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+        <div class="modal-content bg-dark">
+            <div class="modal-body text-center">
+                <video id="cinemaVideo" controls autoplay style="width:50vw; max-width:900px;"></video>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<script>
+function openCinema(src) {
+    const video = document.getElementById('cinemaVideo');
+    video.src = src;
+    video.load();
+}
+
+document.getElementById('cinemaModal').addEventListener('hidden.bs.modal', () => {
+    const video = document.getElementById('cinemaVideo');
+    video.pause();
+    video.src = '';
+});
+</script>
+
+</body>
+</html>

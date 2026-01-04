@@ -1,0 +1,28 @@
+body {
+    scroll-behavior: smooth;
+}
+
+.section {
+    padding: 80px 0;
+}
+
+.hero {
+    min-height: 90vh;
+    display: flex;
+    align-items: center;
+}
+
+.badge-skill {
+    margin: 4px;
+}
+
+
+.custom-list {
+  list-style: disc;
+  padding-left: 20px;
+}
+
+.custom-list li {
+  margin-bottom: 6px;
+  line-height: 1.4;
+}
